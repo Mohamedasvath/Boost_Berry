@@ -87,7 +87,7 @@ const OurWorks = () => {
         <div ref={headerRef} className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+              <span className="w-2 h-2 rounded-full bg-[#463bbb]" />
               <span> • Featured Works</span>
             </div>
             <h2 className="text-4xl sm:text-6xl lg:text-[72px] font-bold tracking-[-0.03em] text-[#141414] leading-[1.05]">
@@ -101,12 +101,6 @@ const OurWorks = () => {
                   fill="none"
                   preserveAspectRatio="none"
                 >
-                  <path
-                    d="M4 11.5C62 6.5 168 6.5 236 11.5"
-                    stroke="#c8ff3d"
-                    strokeWidth="8"
-                    strokeLinecap="round"
-                  />
                 </svg>
               </span>
             </h2>

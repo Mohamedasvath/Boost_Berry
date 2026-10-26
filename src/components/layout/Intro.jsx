@@ -75,7 +75,7 @@ const IntroAnimation = ({ onComplete }) => {
           <span className="text-2xl sm:text-4xl font-bold tracking-tight text-white">
             Boost<span className="text-[#3d63e2]"> Berry</span>
           </span>
-          <span className="w-2.5 h-2.5 rounded-full bg-[#c8ff3d] animate-pulse" />
+          <span className="w-2.5 h-2.5 rounded-full bg-[#3b51aa] animate-pulse" />
         </div>
       </div>
     </div>

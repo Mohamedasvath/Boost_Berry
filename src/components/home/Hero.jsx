@@ -35,12 +35,7 @@ const Hero = () => {
         { opacity: 1, duration: 0.6 }
       )
       // 2. Top Pill Badge Elastic Drop
-      .fromTo(
-        badgeRef.current,
-        { y: -25, opacity: 0, scale: 0.85 },
-        { y: 0, opacity: 1, scale: 1, duration: 0.7, ease: 'back.out(2)' },
-        '-=0.3'
-      )
+     
       // 3. 3D Word-by-Word Skew & Reveal
       .fromTo(
         wordsRef.current,
@@ -150,13 +145,7 @@ const Hero = () => {
           <div className="absolute inset-0 w-full h-full bg-white/85 backdrop-blur-[6px]" />
           
           {/* Subtle Modern Agency Dot Matrix Pattern */}
-          <div 
-            className="absolute inset-0 w-full h-full opacity-[0.35]"
-            style={{
-              backgroundImage: 'radial-gradient(#141414 1px, transparent 1px)',
-              backgroundSize: '28px 28px'
-            }}
-          />
+          
 
           {/* Neon Ambient Glow Behind Headline */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[320px] sm:w-[550px] h-[250px] bg-[#c8ff3d]/30 rounded-full blur-[90px]" />
@@ -168,7 +157,7 @@ const Hero = () => {
           ref={floatingLeftRef}
           className="hidden xl:flex items-center gap-3.5 absolute left-10 2xl:left-20 top-1/3 z-20 bg-white/90 backdrop-blur-md border border-neutral-200/90 p-4 rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.06)] -rotate-6 select-none"
         >
-          <div className="w-11 h-11 rounded-xl bg-[#c8ff3d] flex items-center justify-center text-[#141414] shadow-sm">
+          <div className="w-11 h-11 rounded-xl bg-[#4a6aca] flex items-center justify-center text-[#141414] shadow-sm">
             <TrendingUp className="w-5 h-5 stroke-[2.5]" />
           </div>
           <div className="text-left pr-2">
@@ -180,14 +169,14 @@ const Hero = () => {
         {/* Right Floating Card: Viral Production & Tech */}
         <div 
           ref={floatingRightRef}
-          className="hidden xl:flex items-center gap-3.5 absolute right-10 2xl:right-20 bottom-1/4 z-20 bg-[#141414] text-white p-4 rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.15)] rotate-6 select-none"
+          className="hidden xl:flex items-center gap-3.5 absolute right-10 2xl:right-20 bottom-1/4 z-20 bg-[#f8f4f4] text-white p-4 rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.15)] rotate-6 select-none"
         >
-          <div className="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-[#c8ff3d]">
+          <div className="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-[#426ac1]">
             <Zap className="w-5 h-5 fill-current" />
           </div>
           <div className="text-left pr-2">
             <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">Digital</span>
-            <span className="text-sm font-bold text-white">Growth</span>
+            <span className="text-sm font-bold text-black">Growth</span>
           </div>
         </div>
 
@@ -200,11 +189,11 @@ const Hero = () => {
             className="inline-flex items-center gap-2.5 px-5 py-2 rounded-full bg-[#141414] text-white text-xs sm:text-[13px] font-medium mb-7 shadow-md border border-neutral-800"
           >
             <span className="relative flex h-2.5 w-2.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#c8ff3d] opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#c8ff3d]"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3633ce] opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#274094]"></span>
             </span>
             <span>Available for new projects</span>
-            <Star className="w-3.5 h-3.5 text-[#c8ff3d] ml-0.5" />
+           
           </div>
 
           {/* Full-Width Scalable Word-by-Word Headline */}
@@ -276,10 +265,10 @@ const Hero = () => {
             {/* Button 1: Let's Talk (Neon Lime Green) */}
             <a
               href="tel:+919187638784"
-              className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-[#c8ff3d] hover:bg-[#bce622] text-[#141414] font-bold text-xs sm:text-sm tracking-tight transition-all duration-300 shadow-[0_8px_25px_rgba(200,255,61,0.4)] hover:shadow-[0_12px_30px_rgba(200,255,61,0.6)] hover:-translate-y-0.5 active:scale-95"
+              className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-blue-500 hover:bg-[#bce622] text-[#141414] font-bold text-xs sm:text-sm tracking-tight transition-all duration-300 shadow-[0_8px_25px_rgba(200,255,61,0.4)] hover:shadow-[0_12px_30px_rgba(200,255,61,0.6)] hover:-translate-y-0.5 active:scale-95"
             >
               <span>Let's Talk</span>
-              <span className="w-6 h-6 rounded-full bg-[#141414] text-[#c8ff3d] flex items-center justify-center transition-transform group-hover:rotate-45">
+              <span className="w-6 h-6 rounded-full bg-[#141414] text-[#dfe1e8] flex items-center justify-center transition-transform group-hover:rotate-45">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
             </a>
@@ -291,7 +280,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-[#141414] hover:bg-neutral-800 text-white font-bold text-xs sm:text-sm tracking-tight transition-all duration-300 shadow-md hover:-translate-y-0.5 active:scale-95"
             >
-              <MessageSquare className="w-4 h-4 text-[#c8ff3d] transition-transform group-hover:scale-110" />
+              <MessageSquare className="w-4 h-4 text-[#f0f2eb] transition-transform group-hover:scale-110" />
               <span>WhatsApp Us</span>
             </a>
 

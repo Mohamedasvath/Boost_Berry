@@ -25,42 +25,42 @@ const Services = () => {
       desc: 'High-definition on-location shoots and cinematic framing designed to stop the scroll.',
       icon: <Video className="w-6 h-6" />,
       tag: 'Production',
-      theme: 'dark' // Dark card
+      theme: '' // Dark card
     },
     {
       title: 'Viral Video Editing',
       desc: 'Dynamic hooks, retention pacing, and professional captions built for maximum reach.',
       icon: <Film className="w-6 h-6" />,
       tag: 'Post-Production',
-      theme: 'lime' // Highlight Neon Lime card
+      theme: '' // Highlight Neon Lime card
     },
     {
       title: 'Meta & IG Advertising',
       desc: 'Laser-targeted ad funnels engineered to consistently drive high-ROAS results.',
       icon: <Target className="w-6 h-6" />,
       tag: 'Paid Growth',
-      theme: 'dark' // Dark card
+      theme: '' // Dark card
     },
     {
       title: 'Web Development',
       desc: 'Lightning-fast React & MERN websites optimized for instant conversion.',
       icon: <Code2 className="w-6 h-6" />,
       tag: 'Tech & Code',
-      theme: 'lime' // Updated to Neon Lime color card as requested
+      theme: '' // Updated to Neon Lime color card as requested
     },
     {
       title: 'WhatsApp CRM Automations',
       desc: '24/7 automated chat flows that turn inquiries into sales on autopilot.',
       icon: <MessageSquareCode className="w-6 h-6" />,
       tag: 'Automation',
-      theme: 'dark' // Updated to Black card as requested
+      theme: '' // Updated to Black card as requested
     },
     {
       title: 'GMB Profile Rank #1',
       desc: 'Dominate local Google Maps search results to get direct customer phone calls.',
       icon: <MapPin className="w-6 h-6" />,
       tag: 'Local SEO',
-      theme: 'lime' // Updated to Neon Lime color card as requested
+      theme: '' // Updated to Neon Lime color card as requested
     }
   ];
 
@@ -123,13 +123,13 @@ const Services = () => {
         {/* ==================== SECTION HEADER ==================== */}
         <div ref={headerRef} className="w-full text-left mb-14 sm:mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+            <span className="w-2 h-2 rounded-full bg-[#403ebe]" />
             <span>BoostBerry Digital • What We Do</span>
           </div>
 
           <h2 className="text-4xl sm:text-6xl lg:text-[76px] font-bold tracking-[-0.03em] text-[#141414] leading-[1.05]">
             Our Mission Is To Make Your <br />
-            <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#c8ff3d] text-neutral-950 mt-2">
+            <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#2a42a1] text-neutral-950 mt-2">
               Business Better
             </span>{' '}
             Through Technology

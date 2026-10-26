@@ -114,8 +114,8 @@ const ToolsMarquee = () => {
 
       <div className="relative z-10 w-full max-w-[1500px] mx-auto px-6 mb-8 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#181818] text-white text-[11px] font-medium mb-3 shadow-sm">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#c8ff3d]" />
-          <span>Powered by Cutting-Edge Stack & Tools</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-[#2b37a6]" />
+          <span>Powered by Stack & Tools</span>
         </div>
         <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-[#141414]">
           The Tech & Marketing Arsenal Behind Our High-Performance Builds

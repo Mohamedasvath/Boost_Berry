@@ -68,7 +68,7 @@ const Contact = () => {
         {/* ==================== SECTION HEADER ==================== */}
         <div ref={headerRef} className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-4 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+            <span className="w-2 h-2 rounded-full bg-[#5156b5]" />
             <span>BoostBerry Digital • Get In Touch</span>
           </div>
           <h2 className="text-3xl sm:text-5xl lg:text-[70px] font-bold tracking-[-0.03em] text-[#141414] leading-[1.1]">
@@ -84,7 +84,7 @@ const Contact = () => {
               >
                 <path
                   d="M4 11.5C62 6.5 168 6.5 236 11.5"
-                  stroke="#c8ff3d"
+                  stroke="#2F2DC4"
                   strokeWidth="8"
                   strokeLinecap="round"
                 />
@@ -233,10 +233,10 @@ const Contact = () => {
             <div className="mt-6 sm:mt-8">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center gap-2.5 py-3.5 sm:py-4 rounded-full bg-[#c8ff3d] hover:bg-[#bce622] text-[#141414] font-bold text-xs sm:text-sm tracking-tight transition-all shadow-sm active:scale-95 cursor-pointer"
+                className="w-full inline-flex items-center justify-center gap-2.5 py-3.5 sm:py-4 rounded-full bg-[#504ed0] hover:bg-[#bce622] text-[#141414] font-bold text-xs sm:text-sm tracking-tight transition-all shadow-sm active:scale-95 cursor-pointer"
               >
                 <MessageSquare size={17} />
-                <span>Submit via WhatsApp</span>
+                <span>Submit</span>
                 <Send size={15} />
               </button>
             </div>

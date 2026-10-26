@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end pb-16 border-b border-neutral-200/80 gap-8">
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+              <span className="w-2 h-2 rounded-full bg-[#3b3bbe]" />
               <span>BoostBerry Digital Agency</span>
             </div>
             <h2 className="text-4xl sm:text-6xl lg:text-[72px] font-bold tracking-[-0.03em] text-[#141414] leading-[1.05]">
@@ -55,7 +55,7 @@ const Footer = () => {
                 >
                   <path
                     d="M4 11.5C62 6.5 168 6.5 236 11.5"
-                    stroke="#c8ff3d"
+                    stroke="#3E3CC9"
                     strokeWidth="8"
                     strokeLinecap="round"
                   />
@@ -113,10 +113,10 @@ const Footer = () => {
 
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-neutral-400 mb-5">Connect</h4>
-            <ul className="space-y-3 text-sm font-semibold text-[#141414]">
+            <ul className="space-y-3 text-sm font-semibold text-[#393596]">
               <li><a href="https://wa.me/919187638784" target="_blank" rel="noopener noreferrer" className="hover:text-[#666] transition-colors">WhatsApp (+91 9187638784)</a></li>
-              <li><a href="mailto:boostberrydigital28@gmail.com" className="hover:text-[#666] transition-colors">Email Us</a></li>
-              <li><a href="https://instagram.com/_boostberry_digital" target="_blank" rel="noopener noreferrer" className="hover:text-[#666] transition-colors">Instagram</a></li>
+              <li><a href="mailto:boostberrydigital28@gmail.com" className="hover:text-[#666] transition-colors">boostberrydigital28@gmail.com</a></li>
+              <li><a href="https://instagram.com/_boostberry_digital" target="_blank" rel="noopener noreferrer" className="hover:text-[#666] transition-colors">_boostberry_digital</a></li>
             </ul>
           </div>
         </div>
@@ -125,7 +125,7 @@ const Footer = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-semibold text-neutral-500">
           <p>© {new Date().getFullYear()} BoostBerry Digital. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
-            Make Your <span className="text-[#c8ff3d] bg-neutral-900 px-2 py-0.5 rounded text-[11px]">Content</span> for maximum impact
+            Make Your <span className="text-[#2d44c1] bg-neutral-900 px-2 py-0.5 rounded text-[11px]">Content</span> for maximum impact
           </p>
         </div>
 

@@ -102,13 +102,13 @@ const Results = () => {
       {/* ==================== HEADER SECTION ==================== */}
       <div ref={headerRef} className="max-w-4xl mx-auto text-center mb-16 sm:mb-20">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm">
-          <Trophy size={14} className="text-[#c8ff3d]" />
+          <Trophy size={14} className="text-[#3d47ff]" />
           <span>BoostBerry Digital • Proven Impact</span>
         </div>
         
         <h1 className="text-4xl sm:text-6xl lg:text-[76px] font-bold tracking-[-0.035em] text-[#141414] leading-[1.08]">
           Results that speak <br />
-          <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#c8ff3d] text-neutral-950 mt-2">
+          <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#3631c4] text-neutral-950 mt-2">
             louder than words
           </span>
         </h1>
@@ -119,7 +119,7 @@ const Results = () => {
       </div>
 
       {/* ==================== METRICS GRID ==================== */}
-      <div className="max-w-[1300px] mx-auto mb-24">
+      {/* <div className="max-w-[1300px] mx-auto mb-24">
         <div ref={metricsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
             <div 
@@ -145,10 +145,10 @@ const Results = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* ==================== CASE STUDIES / SUCCESS STORIES ==================== */}
-      <div className="max-w-[1300px] mx-auto">
+      {/* <div className="max-w-[1300px] mx-auto">
         <div className="mb-12">
           <span className="text-xs font-bold uppercase tracking-wider text-neutral-400 block mb-2">Success Stories</span>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#141414]">Featured Client Milestones</h2>
@@ -186,7 +186,7 @@ const Results = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

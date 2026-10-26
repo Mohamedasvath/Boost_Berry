@@ -70,7 +70,7 @@ const About = () => {
             ref={badgeRef}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm"
           >
-            <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+            <span className="w-2 h-2 rounded-full bg-[#353ebf]" />
             <span>About Us</span>
           </div>
 
@@ -132,7 +132,7 @@ const About = () => {
               <div>
                
               </div>
-              <div className="w-8 h-8 rounded-full bg-[#c8ff3d] flex items-center justify-center text-neutral-950">
+              <div className="w-8 h-8 rounded-full bg-[#3940c7] flex items-center justify-center text-neutral-950">
                 <ArrowUpRight size={16} />
               </div>
             </div>

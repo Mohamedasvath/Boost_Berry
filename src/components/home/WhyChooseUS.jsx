@@ -82,12 +82,12 @@ const WhyChooseUs = () => {
         {/* ==================== SECTION HEADER (Like Reference Image Style) ==================== */}
         <div ref={headerRef} className="w-full max-w-4xl mx-auto mb-16 sm:mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#181818] text-white text-xs font-medium mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-[#c8ff3d]" />
+            <span className="w-2 h-2 rounded-full bg-[#2c42a5]" />
             <span>• Why Choose Us</span>
           </div>
 
           <h2 className="text-4xl sm:text-6xl lg:text-[76px] font-bold tracking-[-0.03em] text-[#141414] leading-[1.1]">
-            <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#c8ff3d] text-neutral-950 mr-2">
+            <span className="relative inline-block px-3 py-1 rounded-2xl bg-[#305a99] text-neutral-950 mr-2">
               Branding
             </span>{' '}
             is what separates you from everyone else.
@@ -95,6 +95,7 @@ const WhyChooseUs = () => {
 
           <p className="mt-6 text-sm sm:text-base md:text-lg text-[#555555] font-medium leading-relaxed max-w-2xl mx-auto">
             We build identity frameworks that make your brand instantly recognizable, highly trusted, and harder to replace in your competitive market.
+            We don't just chase vanity metrics. Every video, ad campaign, and web application we engineer is strictly tied to bottom-line revenue growth.
           </p>
         </div>
 
@@ -131,12 +132,12 @@ const WhyChooseUs = () => {
         </div> */}
 
         {/* ==================== STAND OUT NOW CTA BUTTON (Matching Reference Style) ==================== */}
-        <div className="mt-16">
+        <div className="mt-1">
           <a
             href="https://wa.me/919187638784"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2.5 px-9 py-4 rounded-full bg-[#181818] hover:bg-neutral-800 text-white font-bold text-xs sm:text-[14px] tracking-tight transition-all shadow-md active:scale-95"
+            className="group inline-flex items-center gap-2.5 px-5 py-4 rounded-full bg-[#3937bd] hover:bg-neutral-800 text-white font-bold text-xs sm:text-[14px] tracking-tight transition-all shadow-md active:scale-95"
           >
             <span>Stand out now!</span>
             <span className="w-2.5 h-2.5 rounded-full bg-[#c8ff3d] animate-pulse" />
