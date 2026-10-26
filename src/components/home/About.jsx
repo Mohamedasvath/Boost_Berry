@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ArrowUpRight, Video, Target, Code2, MessageSquare } from 'lucide-react';
-import logo from '../../assets/logoo.PNG'
+import logo from '../../assets/logoo.png'
 
 const About = () => {
   const sectionRef = useRef(null);
